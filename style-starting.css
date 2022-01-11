@@ -1,0 +1,86 @@
+body{
+    font-family: 'Yusei Magic', sans-serif;
+    margin: 0;
+    color: #fff;
+}
+
+.container{
+    max-width: auto;
+    margin: 0 auto;
+    background-color: #313438;
+    min-height: 100vh;
+}
+
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2em 0;
+    align-items: center;
+    background: linear-gradient(90deg, rgb(16, 41, 31) 0%, rgba(161,193,78,1) 100%); 
+    font-size: x-large;
+}
+
+.top{
+    display: flex;
+    width: 53%;
+    margin: 0 auto;
+    align-items: center;
+    padding: 1em 2em;
+    margin-top: 2em;
+    border-radius: 20px;
+    box-shadow: 6px 6px 12px #2d2f33, -6px -6px 12px #35393d;
+    font-size: large;
+    transition: .5s;
+}
+
+p{
+    display: flex;
+    width: 53%;
+    margin: 0 auto;
+    align-items: center;
+    padding: 1em 2em;
+    margin-top: 2em;
+    border-radius: 20px;
+    box-shadow: 6px 6px 12px #2d2f33, -6px -6px 12px #35393d;
+    font-size: x-large;
+    border-top-left-radius: 0;
+    transition: .5s;
+}
+
+.click{
+    display: flex;
+    width: 10%;
+    margin: 0 auto;
+    align-items: center;
+    padding: 1em 2em;
+    margin-top: 2em;
+    border-radius: 20px;
+    box-shadow: 6px 6px 12px #2d2f33, -6px -6px 12px #35393d;
+    background-color: #2d2f33;
+    color: #fff;
+    font-size: x-large;
+    transition: .5s;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.top:hover{
+    background-color: #1062b4;
+    transition: .5s;
+    box-shadow: #35393d;
+}
+
+p:hover{
+    background-color: #1062b4;
+    transition: .5s;
+    box-shadow: #35393d;
+}
+
+.click:hover{
+    background-color: #1062b4;
+    box-shadow: #35393d;
+    transition: .5s;
+}
